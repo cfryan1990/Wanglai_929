@@ -10,6 +10,18 @@
 #warning "This project uses features only available in iOS SDK 3.0 and later."
 #endif
 
+
+#define XMPPmyJID @"XMPPmyJID"
+#define XMPPmyPassword @"XMPPmyPassword"
+#define Wanglai_HostIP @"192.168.1.100"
+#define contactIndexTitles [[NSArray alloc] initWithObjects:@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z",@"#", nil];
+
+//FMDB
+#define FMDBQuickCheck(SomeBool) { if (!(SomeBool)) { NSLog(@"Failure on line %d", __LINE__); abort(); } }
+
+#define DATABASE_PATH [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0]stringByAppendingString:@"/Wanglai.db"]
+
+
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
