@@ -262,7 +262,7 @@
     //去除cell间隔线
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 
-    NSLog(@"chat_count = %d",[self.msgRecordsArray count]);
+[self.msgRecordsArray count];
     return [self.msgRecordsArray count];
 }
 

@@ -13,7 +13,7 @@
 
 #define XMPPmyJID @"XMPPmyJID"
 #define XMPPmyPassword @"XMPPmyPassword"
-#define Wanglai_HostIP @"192.168.1.100"
+#define Wanglai_HostIP @"115.159.76.70"
 #define contactIndexTitles [[NSArray alloc] initWithObjects:@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z",@"#", nil];
 
 //FMDB

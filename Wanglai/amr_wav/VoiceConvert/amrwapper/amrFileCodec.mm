@@ -63,7 +63,9 @@ int ReadPCMFrame(short speech[], FILE* fpwave, int nChannels, int nBitsPerSample
 	
 	if (nBitsPerSample==8 && nChannels==1)
 	{
+
 		nRead = fread(pcmFrame_8b1, (nBitsPerSample/8), PCM_FRAME_SIZE*nChannels, fpwave);
+
 		for(x=0; x<PCM_FRAME_SIZE; x++)
 		{
 			speech[x] =(short)((short)pcmFrame_8b1[x] << 7);
@@ -261,7 +263,11 @@ int caclAMRFrameSize(unsigned char frameHeader)
 // 返回值: 0-出错; 1-正确
 int ReadAMRFrameFirst(FILE* fpamr, unsigned char frameBuffer[], int* stdFrameSize, unsigned char* stdFrameHeader)
 {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wsizeof-array-argument"
+#pragma clang diagnostic ignored "-Wsizeof-pointer-memaccess"
 	memset(frameBuffer, 0, sizeof(frameBuffer));
+#pragma clang diagnostic pop
 	
 	// 先读帧头
 	fread(stdFrameHeader, 1, sizeof(unsigned char), fpamr);
@@ -283,8 +289,11 @@ int ReadAMRFrame(FILE* fpamr, unsigned char frameBuffer[], int stdFrameSize, uns
 {
 	int bytes = 0;
 	unsigned char frameHeader; // 帧头
-	
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wsizeof-array-argument"
+#pragma clang diagnostic ignored "-Wsizeof-pointer-memaccess"
 	memset(frameBuffer, 0, sizeof(frameBuffer));
+#pragma clang diagnostic pop
 	
 	// 读帧头
 	// 如果是坏帧(不是标准帧头)，则继续读下一个字节，直到读到标准帧头
@@ -369,7 +378,7 @@ int DecodeAMRFileToWAVEFile(const char* pchAMRFileName, const char* pchWAVEFilen
 		nFrameCount++;
 		fwrite(pcmFrame, sizeof(short), PCM_FRAME_SIZE, fpwave);
 	}
-//	NSLog(@"frame = %d", nFrameCount);
+    printf("frame = %d\n", nFrameCount);
 	Decoder_Interface_exit(destate);
 	
 	fclose(fpwave);

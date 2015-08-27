@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		5F4B0CAD19D7EACE00843403 /* StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B0CAC19D7EACE00843403 /* StringUtils.m */; };
 		5F69A89919D92D4F00B112B6 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F69A88B19D92D4F00B112B6 /* amrFileCodec.mm */; };
-		5F69A89A19D92D4F00B112B6 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F69A88D19D92D4F00B112B6 /* wav.mm */; };
 		5F69A89B19D92D4F00B112B6 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F69A88F19D92D4F00B112B6 /* libopencore-amrnb.a */; };
 		5F69A89C19D92D4F00B112B6 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F69A89019D92D4F00B112B6 /* libopencore-amrwb.a */; };
 		5F69A89D19D92D4F00B112B6 /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F69A89819D92D4F00B112B6 /* VoiceConverter.mm */; };
 		5FA029D019D81966005B81B9 /* WLMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA029CF19D81966005B81B9 /* WLMessage.m */; };
+		5FEF80D11B8EF05F00A04A59 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEF80C71B8EF05F00A04A59 /* FMDatabase.m */; };
+		5FEF80D21B8EF05F00A04A59 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEF80C91B8EF05F00A04A59 /* FMDatabaseAdditions.m */; };
+		5FEF80D31B8EF05F00A04A59 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEF80CB1B8EF05F00A04A59 /* FMDatabasePool.m */; };
+		5FEF80D41B8EF05F00A04A59 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEF80CD1B8EF05F00A04A59 /* FMDatabaseQueue.m */; };
+		5FEF80D51B8EF05F00A04A59 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEF80D01B8EF05F00A04A59 /* FMResultSet.m */; };
 		8420535B19BF37EB00B128BC /* ImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420535A19BF37EB00B128BC /* ImageTools.m */; };
 		84912546199A446B008082F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84912545199A446B008082F8 /* Foundation.framework */; };
 		84912548199A446B008082F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84912547199A446B008082F8 /* CoreGraphics.framework */; };
@@ -22,7 +26,6 @@
 		84912552199A446B008082F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84912551199A446B008082F8 /* main.m */; };
 		84912556199A446B008082F8 /* XMPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84912555199A446B008082F8 /* XMPPAppDelegate.m */; };
 		84912558199A446B008082F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84912557199A446B008082F8 /* Images.xcassets */; };
-		8491255F199A446B008082F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491255E199A446B008082F8 /* XCTest.framework */; };
 		84912560199A446B008082F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84912545199A446B008082F8 /* Foundation.framework */; };
 		84912561199A446B008082F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84912549199A446B008082F8 /* UIKit.framework */; };
 		84912569199A446C008082F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84912567199A446C008082F8 /* InfoPlist.strings */; };
@@ -45,11 +48,6 @@
 		84BB020E19A334B400A012A4 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB020B19A334B400A012A4 /* ChineseString.m */; };
 		84BB020F19A334B400A012A4 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 84BB020C19A334B400A012A4 /* pinyin.c */; };
 		84BB021119A3371D00A012A4 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB021019A3371D00A012A4 /* ContactViewController.m */; };
-		84BB021D19A36B1000A012A4 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB021419A36B1000A012A4 /* FMDatabase.m */; };
-		84BB021E19A36B1000A012A4 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB021619A36B1000A012A4 /* FMDatabaseAdditions.m */; };
-		84BB021F19A36B1000A012A4 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB021819A36B1000A012A4 /* FMDatabasePool.m */; };
-		84BB022019A36B1000A012A4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB021A19A36B1000A012A4 /* FMDatabaseQueue.m */; };
-		84BB022119A36B1000A012A4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB021C19A36B1000A012A4 /* FMResultSet.m */; };
 		84BB022619A37B2600A012A4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB022519A37B2600A012A4 /* libsqlite3.dylib */; };
 		84BC551B19B021340022D231 /* ChatSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BC551A19B021340022D231 /* ChatSelectionView.m */; };
 		84BC553919B03A520022D231 /* sharemore_friendcard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BC552E19B03A520022D231 /* sharemore_friendcard@2x.png */; };
@@ -264,8 +262,6 @@
 		5F4B0CAC19D7EACE00843403 /* StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtils.m; sourceTree = "<group>"; };
 		5F69A88A19D92D4F00B112B6 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
 		5F69A88B19D92D4F00B112B6 /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
-		5F69A88C19D92D4F00B112B6 /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
-		5F69A88D19D92D4F00B112B6 /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
 		5F69A88F19D92D4F00B112B6 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
 		5F69A89019D92D4F00B112B6 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
 		5F69A89219D92D4F00B112B6 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
@@ -276,6 +272,17 @@
 		5F69A89819D92D4F00B112B6 /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
 		5FA029CE19D81966005B81B9 /* WLMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMessage.h; sourceTree = "<group>"; };
 		5FA029CF19D81966005B81B9 /* WLMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMessage.m; sourceTree = "<group>"; };
+		5FEF80C61B8EF05F00A04A59 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		5FEF80C71B8EF05F00A04A59 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		5FEF80C81B8EF05F00A04A59 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		5FEF80C91B8EF05F00A04A59 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		5FEF80CA1B8EF05F00A04A59 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		5FEF80CB1B8EF05F00A04A59 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		5FEF80CC1B8EF05F00A04A59 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		5FEF80CD1B8EF05F00A04A59 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		5FEF80CE1B8EF05F00A04A59 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		5FEF80CF1B8EF05F00A04A59 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		5FEF80D01B8EF05F00A04A59 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		8420535919BF37EB00B128BC /* ImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTools.h; sourceTree = "<group>"; };
 		8420535A19BF37EB00B128BC /* ImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTools.m; sourceTree = "<group>"; };
 		84912542199A446B008082F8 /* Wanglai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wanglai.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -290,7 +297,6 @@
 		84912555199A446B008082F8 /* XMPPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPAppDelegate.m; sourceTree = "<group>"; };
 		84912557199A446B008082F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8491255D199A446B008082F8 /* WanglaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanglaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8491255E199A446B008082F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84912566199A446C008082F8 /* WanglaiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WanglaiTests-Info.plist"; sourceTree = "<group>"; };
 		84912568199A446C008082F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8491256A199A446C008082F8 /* WanglaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WanglaiTests.m; sourceTree = "<group>"; };
@@ -320,16 +326,6 @@
 		84BB020C19A334B400A012A4 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
 		84BB020D19A334B400A012A4 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
 		84BB021019A3371D00A012A4 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
-		84BB021319A36B1000A012A4 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		84BB021419A36B1000A012A4 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		84BB021519A36B1000A012A4 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		84BB021619A36B1000A012A4 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		84BB021719A36B1000A012A4 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		84BB021819A36B1000A012A4 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		84BB021919A36B1000A012A4 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		84BB021A19A36B1000A012A4 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		84BB021B19A36B1000A012A4 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		84BB021C19A36B1000A012A4 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		84BB022519A37B2600A012A4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		84BC551919B021340022D231 /* ChatSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatSelectionView.h; sourceTree = "<group>"; };
 		84BC551A19B021340022D231 /* ChatSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatSelectionView.m; sourceTree = "<group>"; };
@@ -719,7 +715,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8491255F199A446B008082F8 /* XCTest.framework in Frameworks */,
 				84912561199A446B008082F8 /* UIKit.framework in Frameworks */,
 				84912560199A446B008082F8 /* Foundation.framework in Frameworks */,
 			);
@@ -746,8 +741,6 @@
 			children = (
 				5F69A88A19D92D4F00B112B6 /* amrFileCodec.h */,
 				5F69A88B19D92D4F00B112B6 /* amrFileCodec.mm */,
-				5F69A88C19D92D4F00B112B6 /* wav.h */,
-				5F69A88D19D92D4F00B112B6 /* wav.mm */,
 			);
 			path = amrwapper;
 			sourceTree = "<group>";
@@ -788,6 +781,24 @@
 			name = Packet;
 			sourceTree = "<group>";
 		};
+		5FEF80C51B8EF05100A04A59 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				5FEF80C61B8EF05F00A04A59 /* FMDatabase.h */,
+				5FEF80C71B8EF05F00A04A59 /* FMDatabase.m */,
+				5FEF80C81B8EF05F00A04A59 /* FMDatabaseAdditions.h */,
+				5FEF80C91B8EF05F00A04A59 /* FMDatabaseAdditions.m */,
+				5FEF80CA1B8EF05F00A04A59 /* FMDatabasePool.h */,
+				5FEF80CB1B8EF05F00A04A59 /* FMDatabasePool.m */,
+				5FEF80CC1B8EF05F00A04A59 /* FMDatabaseQueue.h */,
+				5FEF80CD1B8EF05F00A04A59 /* FMDatabaseQueue.m */,
+				5FEF80CE1B8EF05F00A04A59 /* FMDB.h */,
+				5FEF80CF1B8EF05F00A04A59 /* FMResultSet.h */,
+				5FEF80D01B8EF05F00A04A59 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
 		84912539199A446B008082F8 = {
 			isa = PBXGroup;
 			children = (
@@ -822,7 +833,6 @@
 				84912545199A446B008082F8 /* Foundation.framework */,
 				84912547199A446B008082F8 /* CoreGraphics.framework */,
 				84912549199A446B008082F8 /* UIKit.framework */,
-				8491255E199A446B008082F8 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -879,8 +889,8 @@
 		84912574199A4476008082F8 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				5FEF80C51B8EF05100A04A59 /* FMDB */,
 				84BC554419B0B58E0022D231 /* amr_wav */,
-				84BB021219A36B1000A012A4 /* FMDB */,
 				84912575199A447E008082F8 /* XMPP */,
 			);
 			name = 3rd;
@@ -955,23 +965,6 @@
 				5F4B0CAC19D7EACE00843403 /* StringUtils.m */,
 			);
 			name = Utils;
-			sourceTree = "<group>";
-		};
-		84BB021219A36B1000A012A4 /* FMDB */ = {
-			isa = PBXGroup;
-			children = (
-				84BB021319A36B1000A012A4 /* FMDatabase.h */,
-				84BB021419A36B1000A012A4 /* FMDatabase.m */,
-				84BB021519A36B1000A012A4 /* FMDatabaseAdditions.h */,
-				84BB021619A36B1000A012A4 /* FMDatabaseAdditions.m */,
-				84BB021719A36B1000A012A4 /* FMDatabasePool.h */,
-				84BB021819A36B1000A012A4 /* FMDatabasePool.m */,
-				84BB021919A36B1000A012A4 /* FMDatabaseQueue.h */,
-				84BB021A19A36B1000A012A4 /* FMDatabaseQueue.m */,
-				84BB021B19A36B1000A012A4 /* FMResultSet.h */,
-				84BB021C19A36B1000A012A4 /* FMResultSet.m */,
-			);
-			path = FMDB;
 			sourceTree = "<group>";
 		};
 		84BC554419B0B58E0022D231 /* amr_wav */ = {
@@ -2101,7 +2094,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then /Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\";\nfi";
+			shellScript = "";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2129,7 +2122,6 @@
 				84DFC1A319A4D84C008470EE /* XMPPvCardAvatarCoreDataStorageObject.m in Sources */,
 				84DFC1C719A4D84C008470EE /* XMPPMessage+XEP_0172.m in Sources */,
 				84DFC1CB19A4D84C008470EE /* XMPPBlocking.m in Sources */,
-				84BB021E19A36B1000A012A4 /* FMDatabaseAdditions.m in Sources */,
 				84DFC1CF19A4D84C008470EE /* XMPPAutoPing.m in Sources */,
 				5F69A89919D92D4F00B112B6 /* amrFileCodec.mm in Sources */,
 				84DFC19519A4D84C008470EE /* XMPPRoomCoreDataStorage.m in Sources */,
@@ -2139,7 +2131,6 @@
 				84DFC1EF19A4D84C008470EE /* DDXMLDocument.m in Sources */,
 				84DFC1EE19A4D84C008470EE /* NSString+DDXML.m in Sources */,
 				84BF3ECA19B5DD9200282788 /* WLContactTableViewCell.m in Sources */,
-				84BB022119A36B1000A012A4 /* FMResultSet.m in Sources */,
 				84DFC17D19A4D84C008470EE /* XMPPPresence.m in Sources */,
 				84DFC1B319A4D84C008470EE /* TURNSocket.m in Sources */,
 				84DFC1E219A4D84C008470EE /* XMPPStringPrep.m in Sources */,
@@ -2154,7 +2145,6 @@
 				84DFC18919A4D84C008470EE /* XMPPResourceMemoryStorageObject.m in Sources */,
 				84DFC17E19A4D84C008470EE /* XMPPStream.m in Sources */,
 				84912789199A5380008082F8 /* WangLaiViewController.m in Sources */,
-				84BB021F19A36B1000A012A4 /* FMDatabasePool.m in Sources */,
 				84DFC16C19A4D84C008470EE /* XMPPAnonymousAuthentication.m in Sources */,
 				84DFC1CA19A4D84C008470EE /* XMPPMessageDeliveryReceipts.m in Sources */,
 				84DFC19819A4D84C008470EE /* XMPPRoomHybrid.xcdatamodeld in Sources */,
@@ -2169,21 +2159,22 @@
 				84DFC18819A4D84C008470EE /* XMPPUserCoreDataStorageObject.m in Sources */,
 				84BB020E19A334B400A012A4 /* ChineseString.m in Sources */,
 				84BB020F19A334B400A012A4 /* pinyin.c in Sources */,
+				5FEF80D41B8EF05F00A04A59 /* FMDatabaseQueue.m in Sources */,
+				5FEF80D21B8EF05F00A04A59 /* FMDatabaseAdditions.m in Sources */,
 				84DFC17719A4D84C008470EE /* XMPPElement.m in Sources */,
 				84DFC19119A4D84C008470EE /* XMPPIQ+LastActivity.m in Sources */,
 				84DFC1C419A4D84C008470EE /* XMPPMessageArchivingCoreDataStorage.m in Sources */,
 				84DFC18419A4D84C008470EE /* XMPPGroupCoreDataStorageObject.m in Sources */,
 				84DFC1B719A4D84C008470EE /* XMPPDateTimeProfiles.m in Sources */,
 				84DFC17819A4D84C008470EE /* XMPPIQ.m in Sources */,
+				5FEF80D51B8EF05F00A04A59 /* FMResultSet.m in Sources */,
 				5F69A89D19D92D4F00B112B6 /* VoiceConverter.mm in Sources */,
-				5F69A89A19D92D4F00B112B6 /* wav.mm in Sources */,
 				84DFC1AD19A4D84C008470EE /* XMPPvCardTempModule.m in Sources */,
 				84DFC1E419A4D84C008470EE /* GCDAsyncSocket.m in Sources */,
 				84DFC1B119A4D84C008470EE /* XMPPIQ+XEP_0060.m in Sources */,
 				84BD08AE19B83FAB00130674 /* FileUpLoad.m in Sources */,
 				84DFC1DF19A4D84C008470EE /* RFImageToDataTransformer.m in Sources */,
 				84DFC16F19A4D84C008470EE /* XMPPDigestMD5Authentication.m in Sources */,
-				84BB021D19A36B1000A012A4 /* FMDatabase.m in Sources */,
 				84DFC19E19A4D84C008470EE /* XMPPRoomOccupantMemoryStorageObject.m in Sources */,
 				84DFC19F19A4D84C008470EE /* XMPPMessage+XEP0045.m in Sources */,
 				84CEB12619AAEE03009A69C3 /* WLMessageObject.m in Sources */,
@@ -2203,6 +2194,7 @@
 				84DFC1AC19A4D84C008470EE /* XMPPvCardTempLabel.m in Sources */,
 				84DFC17A19A4D84C008470EE /* XMPPMessage.m in Sources */,
 				84DFC1EB19A4D84C008470EE /* DDDispatchQueueLogFormatter.m in Sources */,
+				5FEF80D11B8EF05F00A04A59 /* FMDatabase.m in Sources */,
 				84DFC19C19A4D84C008470EE /* XMPPRoomMemoryStorage.m in Sources */,
 				84DFC16D19A4D84C008470EE /* XMPPDeprecatedDigestAuthentication.m in Sources */,
 				84DFC18F19A4D84C008470EE /* XMPPIQ+JabberRPCResonse.m in Sources */,
@@ -2212,7 +2204,6 @@
 				84DFC18D19A4D84C008470EE /* XMPPSystemInputActivityMonitor.m in Sources */,
 				84DFC17019A4D84C008470EE /* XMPPPlainAuthentication.m in Sources */,
 				84DFC1D919A4D84C008470EE /* NSXMLElement+XEP_0297.m in Sources */,
-				84BB022019A36B1000A012A4 /* FMDatabaseQueue.m in Sources */,
 				5F4B0CAD19D7EACE00843403 /* StringUtils.m in Sources */,
 				84BF3DEE19A7578400C3F261 /* SendMessageViewController.m in Sources */,
 				84DFC1F019A4D84C008470EE /* DDXMLElement.m in Sources */,
@@ -2222,6 +2213,7 @@
 				84DFC1DB19A4D84C008470EE /* XMPPMessage+XEP_0333.m in Sources */,
 				84DFC1DA19A4D84C008470EE /* XMPPMessage+XEP_0308.m in Sources */,
 				84DFC18519A4D84C008470EE /* XMPPResourceCoreDataStorageObject.m in Sources */,
+				5FEF80D31B8EF05F00A04A59 /* FMDatabasePool.m in Sources */,
 				84DFC1E319A4D84C008470EE /* XMPPTimer.m in Sources */,
 				84DFC1BB19A4D84C008470EE /* NSString+XEP_0106.m in Sources */,
 				84DFC1B619A4D84C008470EE /* NSDate+XMPPDateTimeProfiles.m in Sources */,
@@ -2396,8 +2388,9 @@
 		8491256F199A446C008082F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 峰 陈 (MB6LKU9576)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wanglai/Wanglai-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -2420,8 +2413,9 @@
 		84912570199A446C008082F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 峰 陈 (MB6LKU9576)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Wanglai/Wanglai-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
